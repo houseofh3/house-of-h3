@@ -1320,3 +1320,14 @@ color: white;
   }
 
 }
+/* Mobile Header Banner Fix */
+@media (max-width:560px){
+
+  .home-banner{
+      margin-top:55px !important;
+      height:220px !important;
+      background-size:cover;
+      background-position:center;
+  }
+
+}
