@@ -1240,32 +1240,33 @@ color: white;
 
 }
 
-/* TABLET — প্রতি row-তে 2টি image */
+/* TABLET — প্রতি row-তে 4টি image */
 
 @media (max-width: 900px) {
 
   .h3-image-gallery {
 
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-columns: repeat(4, 1fr);
 
-    gap: 20px;
+    gap: 15px;
+
+    padding: 0 15px;
 
   }
 
 }
 
-
-/* MOBILE — প্রতি row-তে 1টি image */
+/* MOBILE — প্রতি row-তে 3টি image */
 
 @media (max-width: 560px) {
 
   .h3-image-gallery {
 
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(3, 1fr);
 
-    max-width: 500px;
+    gap: 10px;
 
-    padding: 0 20px;
+    padding: 0 10px;
 
   }
 
