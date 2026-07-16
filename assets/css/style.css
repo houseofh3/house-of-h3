@@ -1321,4 +1321,12 @@ color: white;
   }
 
 }
+@media (max-width:560px){
 
+.reveal{
+    opacity:1 !important;
+    transform:none !important;
+    transition:none !important;
+}
+
+}
