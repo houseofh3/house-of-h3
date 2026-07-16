@@ -1309,4 +1309,14 @@ color: white;
   border-bottom:
     1px solid rgba(212, 175, 90, 0.35) !important;
 }
+/* MOBILE HOME BANNER FIX */
+@media (max-width:560px){
 
+  .home-banner{
+      margin-top:95px !important;
+      height:220px !important;
+      background-position:center center !important;
+      background-size:cover !important;
+  }
+
+}
