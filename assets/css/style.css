@@ -802,15 +802,13 @@ footer .copyright{
 ================================= */
 
 .home-banner{
-    width:100%;
-    height:560px;
-    margin-top:70px;
-    background-image:url("../images/home-banner.jpg");
-    background-size:cover;
+    height:auto;
+    aspect-ratio:1920/760;   /* আপনার banner-এর ratio অনুযায়ী */
+    background-size:contain;
     background-position:center;
     background-repeat:no-repeat;
+    background-color:#050505;
 }
-
 
 /* =================================
    TEXT BELOW HOME BANNER
