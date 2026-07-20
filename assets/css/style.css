@@ -805,7 +805,7 @@ footer .copyright{
 
   width: 100%;
 
-  height: 750px;
+  height: 500px;
 
   margin-top: 70px;
 
@@ -813,7 +813,7 @@ footer .copyright{
 
   background-size: cover;
 
-  background-position: center;
+  background-position: center 30%;
 
   background-repeat: no-repeat;
 
